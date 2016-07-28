@@ -8,40 +8,12 @@ For more information, please visit [https://www.dialmycalls.com](https://www.dia
 
 ## Installation
 
-### Build a gem
+    gem 'dialmycalls_client', '~> 2.0.1'
 
-To build the Ruby code into a gem:
-
-```shell
-gem build dialmycalls_client.gemspec
-```
-
-Then either install the gem locally:
-
-```shell
-gem install ./dialmycalls_client-1.0.0.gem
-```
-(for development, run `gem install --dev ./dialmycalls_client-1.0.0.gem` to install the development dependencies)
-
-or publish the gem to a gem hosting service, e.g. [RubyGems](https://rubygems.org/).
-
-Finally add this to the Gemfile:
-
-    gem 'dialmycalls_client', '~> 1.0.0'
-
-### Install from Git
-
-If the Ruby gem is hosted at a git repository: https://github.com/dialmycalls/ruby-sdk-v2, then add the following in the Gemfile:
+### Or Install from Git
 
     gem 'dialmycalls_client', :git => 'https://github.com/dialmycalls/ruby-sdk-v2.git'
 
-### Include the Ruby code directly
-
-Include the Ruby code directly using `-I` as follows:
-
-```shell
-ruby -Ilib script.rb
-```
 
 ## Getting Started
 
